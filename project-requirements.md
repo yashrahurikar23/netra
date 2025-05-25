@@ -78,7 +78,24 @@ Such assitant should be intelligent enough to process the data points related to
 
 #### Unknowns
 1. How various type of data stored? What kind of DB are used. 
-2. What all kind of data that needs to be processed.
+2. What all kind of data that needs to be processed? It can be sensor data, telemetry data, flight data, etc.
+
+#### Additional Data Types in Space Technology & Rocket Missions
+
+| Data Type                      | Description                                                                                  |
+|------------------------------- |---------------------------------------------------------------------------------------------|
+| Environmental Data             | Space weather, radiation levels, micrometeoroid impacts, atmospheric density                |
+| Ground Station Logs            | Communication session logs, command uplink/downlink records, ground equipment status         |
+| Health & Status Data           | Subsystem health, fault logs, anomaly reports, maintenance records                          |
+| Mission Planning Data          | Launch windows, trajectory plans, payload integration schedules, contingency procedures      |
+| Software & Firmware Versions   | Onboard software builds, patch history, configuration files                                 |
+| Event & Timeline Data          | Mission event logs, timeline of critical operations, time-tagged command sequences           |
+| Image & Video Data             | Onboard camera feeds, Earth observation images, payload imaging data                        |
+| Scientific Experiment Data     | Sensor readings from experiments, sample analysis, experiment logs                          |
+| Logistics & Inventory Data     | Parts inventory, consumables tracking, resupply schedules                                   |
+| Crew Data (if crewed)          | Crew health, activity logs, life support system data, biometric data                        |
+| Legal & Compliance Data        | Regulatory filings, export control documentation, safety certifications                     |
+| Financial & Cost Data          | Budget tracking, cost analysis, procurement records                                         |
 
 
 
