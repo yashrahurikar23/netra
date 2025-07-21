@@ -4,6 +4,7 @@ Main entry point for Netra on Streamlit Community Cloud.
 Optimized for free tier deployment.
 """
 
+
 import os
 import sys
 import warnings
@@ -13,6 +14,8 @@ warnings.filterwarnings("ignore")
 
 # Set environment variables for deployment
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+# Force ChromaDB to use bundled sqlite3-binary if available
+os.environ["CHROMA_DB_FORCE_SQLITE3_BINARY"] = "1"
 
 # Add src to Python path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
