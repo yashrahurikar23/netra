@@ -1,0 +1,37 @@
+# Netra - Space Flight Simulation & RAG Platform
+# Core dependencies for the first version
+
+# Core frameworks
+streamlit>=1.31.0
+llama-index>=0.10.0
+openai>=1.12.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+plotly>=5.17.0
+matplotlib>=3.7.0
+
+# Vector database
+chromadb>=0.4.0
+
+# Additional LlamaIndex integrations
+llama-index-llms-openai>=0.1.0
+llama-index-embeddings-openai>=0.1.0
+llama-index-vector-stores-chroma>=0.1.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Additional utilities
+requests>=2.31.0
+pydantic>=2.5.0
+typing-extensions>=4.8.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+black>=23.0.0
+ruff>=0.1.0
