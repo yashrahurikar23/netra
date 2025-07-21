@@ -112,7 +112,7 @@ plotly==6.2.0
 pluggy==1.6.0
 posthog==5.4.0
 propcache==0.3.2
-protobuf==3.20.3
+protobuf==6.31.1
 pyarrow==20.0.0
 pyasn1==0.6.1
 pyasn1-modules==0.4.2
